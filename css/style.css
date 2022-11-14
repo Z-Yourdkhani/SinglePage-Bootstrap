@@ -1,0 +1,31 @@
+:root {
+  --myColor: rgb(152, 42, 254);
+}
+@font-face {
+  font-family: "fontVazir";
+  src: url("../fonts/Vazirmatn-Medium.woff2");
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "fontVazir", Arial, sans-serif;
+}
+.myColor {
+  color: var(--myColor);
+}
+.myBg {
+  background-color: rgba(152, 42, 254, 0.7);
+}
+.bannerHeader {
+  height: 95vh;
+  background-color: var(--myColor);
+}
+.banner a:hover {
+  color: var(--myColor);
+}
+.containerCard h3 {
+  color: var(--myColor);
+}
